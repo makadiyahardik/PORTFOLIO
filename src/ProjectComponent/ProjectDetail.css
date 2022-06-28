@@ -1,0 +1,65 @@
+.prod{
+    margin-top: -40px;
+    padding: 10px 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.prod h1{
+    margin: 15px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.prod h3{
+    font-size: 1.2rem;
+    margin: 15px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.prod img{
+    height: 300px;
+    width: 300px;
+}
+.prod a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.prod a:hover{
+    color: red;
+}
+@media (max-width:650px) {
+    .prod img{
+        height: 300px;
+        width: 400px;
+    }
+    .prod{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media (max-width:637px) {
+    .prod img{
+        height: 280px;
+        width: 260px;
+    }
+    .prod h1{
+        font-size: 1rem;
+    }
+    .prod h3{
+        font-size: 0.8rem;
+        font-weight: 900;
+    }
+    .prod{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .prod{
+        padding: 10px 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
